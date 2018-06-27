@@ -13,7 +13,8 @@ extern "C"{
 #endif
 
 #include <stddef.h>
-#include "sph_types.h"
+
+#include "types.h"
 
 /**
  * Output size (in bits) for BLAKE-224.
