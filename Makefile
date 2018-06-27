@@ -7,7 +7,8 @@ else
 endif
 
 build:
-	g++ src/blake.c main.cpp -o nist5.exe -static-libgcc -static-libstdc++
+	g++ src/blake.c src/groestl.c src/jh.c src/keccak.c src/skein.c main.cpp \
+		-o nist5.exe -static-libgcc -static-libstdc++
 
 start:
 	make build
